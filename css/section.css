@@ -1,0 +1,24 @@
+.section {
+        padding: 20px
+}
+
+
+.section__header {
+        color: rgba(171, 227, 236, 0.863);
+}
+
+.section__paragraph {
+        line-height: 25px;
+}
+
+.section__listItem {
+        margin: 5px 0;
+        list-style-type: none;
+
+
+}
+
+.section__unorderedList {
+        list-style-type: none;
+
+}

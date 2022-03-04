@@ -1,0 +1,143 @@
+html {
+        box-sizing: border-box
+}
+
+*, ::after, ::before {
+        box-sizing: inherit;
+}
+
+.header__imgPaniDomuLogo {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+}
+
+.header {
+        background-color: rgba(255, 228, 196, 0.637);
+}
+
+.TrescGlowna {
+        max-width: 1000px;
+        background-color: crimson;
+        margin: 0 auto;
+        display: block;
+
+}
+
+.table {
+        font-family: "Arial", sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white;
+}
+
+.tableCell {
+        border: 1px solid #ccc;
+        border-width: 0 0 1px;
+        padding: 20px;
+        text-align: center;
+        vertical-align: middle;
+}
+
+.caption {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(171, 227, 236, 0.863)
+}
+
+.tableHeader {
+        background-color: rgba(171, 227, 236, 0.863);
+
+}
+
+.tableRow:nth-child(even) {
+        background: rgba(221, 221, 221, 0.562);
+}
+
+.tableRow:hover {
+        background: rgba(221, 221, 221, 0.562);
+}
+
+.container {
+        overflow-x: auto;
+}
+
+.link {
+        background-color: rgba(171, 227, 236, 0.863);
+        color: rgb(72, 3, 82);
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+
+}
+
+.link:focus {
+        outline: 2px solid black;
+}
+
+.link:hover {
+        color: rgba(171, 227, 236, 0.863);
+}
+
+.link2 {
+        background-color: crimson;
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+}
+
+.linkfooter {
+        color: rgb(72, 3, 82);
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+        font-size: 20px;
+
+}
+
+.linkfooter:hover {
+        color: rgba(171, 227, 236, 0.863);
+}
+
+.linkfooter:focus {
+        outline: 2px solid black;
+}
+
+.kontakt {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+}
+
+.stopka {
+        background-color: rgba(255, 228, 196, 0.637);
+        padding: 20px;
+        margin: 20px;
+}
+
+.innykolornawigator {
+        color: white;
+}
+
+.ciemny {
+        background-color: black;
+        color: chartreuse;
+}
+
+.nawigacja__listItem {
+        margin: 5px 0;
+        list-style-type: none;
+
+
+}
+
+.nawigacja__unorderedList {
+        list-style-type: none;
+
+}

@@ -1,0 +1,32 @@
+.aside {
+        padding: 20px;
+        background-color: rgba(221, 221, 221, 0.562);
+        margin: 20px;
+}
+
+.aside__listItem {
+        margin: 5px 0;
+        list-style-type: none;
+
+
+}
+
+.aside__unorderedList {
+        list-style-type: none;
+
+}
+
+.linkaside {
+        color: rgb(72, 3, 82);
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px;
+}
+
+.linkaside:focus {
+        outline: 2px solid black;
+}
+
+.linkaside:hover {
+        color: rgba(171, 227, 236, 0.863);
+}
